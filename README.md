@@ -30,9 +30,9 @@ Before running the code, ensure that you have the following dependencies install
 ## Getting Started
 
 1. Clone the repository:
-https://github.com/ramya-bashkaran/Multi_Class_URL_Classification.git
+[click here](https://github.com/ramya-bashkaran/Multi_Class_URL_Classification.git)
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 cd URL_Classification_System
 
 
