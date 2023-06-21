@@ -45,7 +45,7 @@ pip install -r requirements.txt
 - Replace `X_test` and `y_test` with your own test data.
 
 5. Run the script:
-python url_classification.py
+python MULTI_CLASS_URL_CLASSIFICATION.ipynb
 
 This will run the URL classification system, perform predictions, and display the results.
 
