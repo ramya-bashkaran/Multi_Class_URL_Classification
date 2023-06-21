@@ -1,0 +1,88 @@
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #F9EFFC ;
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: 600;
+            background-image: linear-gradient(to bottom left, #9B59B6, #3C1A4A);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+        }
+
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #6C3483;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+    
+    <div class="container">
+        <header>
+            <h1><center>MULTI-CLASS URL CLASSIFICATION SYSTEM</center></h1>
+        </header>
+
+        <div class="description">
+            <br>&#8226; Benign &#8594; 0  &nbsp; &nbsp;  &#8226; Defacement &#8594; 1</br>
+            <br>&#8226; Phishing &#8594; 2 &nbsp; &nbsp; &#8226; Malware &#8594; 3</br>
+        </div>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Prediction</th>
+                </tr>
+            </thead>
+            <tbody>
+    <tr><td>AdaBoostClassifier</td><td>2</td></tr><tr><td>MLPClassifier</td><td>3</td></tr><tr><td>RandomForestClassifier</td><td>0</td></tr><tr><td>GaussianNB</td><td>3</td></tr><tr><td>ExtraTreesClassifier</td><td>0</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
