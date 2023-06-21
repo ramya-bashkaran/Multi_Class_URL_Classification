@@ -30,31 +30,35 @@ Before running the code, ensure that you have the following dependencies install
 ## Getting Started
 
 1. Clone the repository:
-
+https://github.com/ramya-bashkaran/Multi_Class_URL_Classification.git
 
 2. Navigate to the project directory:
+cd URL_Classification_System
 
 
-3. Install the required dependencies:
+4. Install the required dependencies:
+pip install -r requirements.txt
 
-
-4. Replace the placeholders with your own data:
+5. Replace the placeholders with your own data:
 
 - Replace `models` dictionary with your own machine learning models.
 - Replace `X_test` and `y_test` with your own test data.
 
 5. Run the script:
+python url_classification.py
 
-
-This will evaluate the models, generate evaluation reports, and display visualizations.
+This will run the URL classification system, perform predictions, and display the results.
 
 ## Results
 
-The evaluation results are displayed as a table and bar charts using Plotly. The table includes metrics such as accuracy, precision, recall, and F1-score for each model. The bar charts visualize the performance of each model across different metrics.
+The system provides evaluation metrics such as accuracy, precision, recall, and F1-score for each model. It visualizes the performance of each model using bar charts and generates a report with the evaluation results.
 
 ## Dataset
-- The dataset used for evaluation is from https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset.
 
+The dataset used for training and evaluation is available at [Kaggle](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset). 
+It contains a collection of URLs labeled with their corresponding categories.
+
+Feel free to explore the code, customize it according to your needs, and integrate it into your own projects. 
 Happy coding!
 
 
