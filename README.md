@@ -12,3 +12,50 @@ This project focuses on training a multi-class URL classification model using a 
 ***Results Analysis:*** The evaluation results, including accuracy, precision, recall, and F1-score, are collected and presented in a models report table. This table provides a comprehensive comparison of the performance metrics for each model, enabling informed decision-making for selecting the most effective model for URL classification.
 
 ***Visualization and GUI:*** The evaluation results are further visualized using bar charts. These charts provide an intuitive visual representation of the performance metrics for each model, facilitating easy comparison and analysis. Additionally, the IPython.display library is utilized to create an attractive graphical user interface (GUI) that enhances the user experience by providing an interactive interface to interact with the project and view the evaluation results.
+
+********************************************************************************************************************************************************************
+# Machine Learning Model Evaluation
+
+This repository contains code for evaluating machine learning models on a dataset. The code performs model evaluation using various metrics such as accuracy, precision, recall, and F1-score. The evaluation results are visualized using Plotly.
+
+## Prerequisites
+
+Before running the code, ensure that you have the following dependencies installed:
+
+- Python (version 3.6 or higher)
+- Pandas
+- Scikit-learn
+- Plotly
+
+## Getting Started
+
+1. Clone the repository:
+
+
+2. Navigate to the project directory:
+
+
+3. Install the required dependencies:
+
+
+4. Replace the placeholders with your own data:
+
+- Replace `models` dictionary with your own machine learning models.
+- Replace `X_test` and `y_test` with your own test data.
+
+5. Run the script:
+
+
+This will evaluate the models, generate evaluation reports, and display visualizations.
+
+## Results
+
+The evaluation results are displayed as a table and bar charts using Plotly. The table includes metrics such as accuracy, precision, recall, and F1-score for each model. The bar charts visualize the performance of each model across different metrics.
+
+## Dataset
+- The dataset used for evaluation is from https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset.
+
+Happy coding!
+
+
+
